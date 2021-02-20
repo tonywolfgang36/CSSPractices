@@ -1,3 +1,14 @@
 *{
-    background: black;
+    margin: 0;
+}
+
+header {
+    background: #666666;
+    height: 10vh;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
