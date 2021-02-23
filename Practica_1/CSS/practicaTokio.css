@@ -12,6 +12,7 @@ h1{
     text-align: center;
     color: white;
     font-size: 50px;
+    padding-top: 5px;
 }
 
 .containers{
@@ -23,6 +24,7 @@ aside {
  width: 20%;
  padding-top: 2.5%;
  background: black;
+ float: left;
 }
 
 aside > .contenedoresLinks {
@@ -35,7 +37,6 @@ aside > .contenedoresLinks {
     display: block;
     font-size: 30px;
     color: blueviolet;
-    background: yellow;
 }
 
 section{
@@ -43,4 +44,32 @@ section{
     float: left;
     height: 100%;
     background: f1f1f1;
+}
+
+h3{
+    font-size: 30px;
+    margin: 2% auto;
+    width: 90%;
+}
+
+.texto-Principal{
+ font-size: 20px;
+ width: 90%;
+ margin: 20px auto;
+ text-align: justify;
+}
+
+iframe{
+    display: block;
+    margin: 10px auto;
+}
+
+footer{
+height: 7vh;
+background: #666666;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 30px;
 }
