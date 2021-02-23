@@ -34,8 +34,7 @@ aside > .contenedores-Links{
 
 .contenedores-Links > a{
     display: block;
-    font-size: 30px;
-    margin: 2px 2px;
+    font-size: 0px;
     color: rgb(8,128,128);
 }
 
