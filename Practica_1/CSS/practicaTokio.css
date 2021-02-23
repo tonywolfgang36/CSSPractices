@@ -13,3 +13,18 @@ h1{
     color: white;
     font-size: 50px;
 }
+
+.containers{
+    height: 85vh;
+}
+
+aside {
+ height: 100%;
+ width: 20%;
+ padding-top: 40px;
+ background: black;
+}
+
+aside > .contenedoresLinks {
+
+}
