@@ -26,3 +26,20 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.secText{
+    height: auto;
+    padding: 50px 100px;
+}
+
+.secText > h1{
+    margin: 0;
+    padding: 0;
+    font-size: 7vh;
+    color: gray;
+}
+
+.secText > p {
+    font-size: 3vh;
+    text-align: justify;
+}
