@@ -1,5 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 header{
-    width: 100%;
+    width: 99%;
     height: 20vh;
-    background: gray;
+    background:rgb(212, 212, 212);
+    position: relative;
+    margin:5px 15px 1px 5px;
+    border: gray 2px solid;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    left: 30vh;
+    font-size: 50px;
+    bottom: 30px;
+}
+
+.mind{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 54vh;
+    bottom: 30px;
+    color: greenyellow;
+}
+.biggersquare{
+    display: flex;
+}
+.bigsquare{
+    background:rgb(176, 197, 56);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 77vh;
+    border: gray 2px solid;
+    margin: 5px 1px;
+}
+
+.bigh{
+    color: white;
+    font-family: ;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+
+.bigh1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    width: 40%;
+    margin: 5px 70px 5px 10px;
+}
+
+.bigh2{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    width: 50%;
+}
+
+.bigh3{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    width: 30%;
+    margin:15px;
+}
+
+.big4{
+    
+}
+
+img{
+    width: 700px; 
+    height: 300px;
+}
+
+.lilsquare{
+    width: 20%;
+    height: 20vh;
+    background:rgb(176, 197, 56);;
+    flex-direction: column;
+    margin: 5px 7px 0px 5px;
+    border: gray 2px solid;
+}
+
+.mediumsquare{
+    background:rgb(212, 212, 212);
+    margin:20px;
+    width: 19.7%;
+    height: 40vh;
+    flex-direction: column;
+    position: absolute;
+    left: 1070px;
+    bottom: 95px;
+    border: gray 2px solid;
 }
